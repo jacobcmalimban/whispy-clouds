@@ -5,6 +5,10 @@ Whispy clouds are an intersting cloud formation. Nice to look at, but rather una
 This repository is for my tests of cloud computing: uploading, downloading, and gitting good. 
 
 ## ToDo
-- [ ] Upload initial files
+- [x] Upload to cloud computer
+- [ ] 
+- [ ] Download from cloud computer
+- [ ] Recover files...
+- [x] Upload to github
 - [ ] Download some repositories
 - [ ] ...
