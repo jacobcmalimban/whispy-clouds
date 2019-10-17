@@ -1,0 +1,56 @@
+# make repo
+mkdir [repo name]
+
+git init
+
+git remote add origin git@github.com:jacobcmalimban/[repo name].git
+#  updating: git remote set-url origin git@github.com:jacobcmalimban/[repo name].git
+
+git pull origin master
+
+
+# fetch remote branches
+git fetch origin
+git checkout [remote branch name]
+
+
+# branching
+
+git checkout -b [branch name]
+#  aka:		git branch [branch name] ; git checkout [branch name]
+
+# if needing to hotfix, commit your branch changes, then:
+git checkout master
+git checkout -b hotfix
+#  commit hotfix, merge master & hotfix:
+git checkout master
+git merge hotfix
+git branch -d hotfix	# deletes hotfix branch
+
+
+# committing updates
+
+git commit -a --date="2019-09-30 12:13:45"
+#  quickly: git commit -a -m "[message]"
+#  aka:		git add * ; git commit -m "[message]"
+#	git commit -ammend
+
+git push origin [branch]
+
+
+# merging branches
+
+#  CHECK MASTER AND BRANCH ARE COMMITTED
+git checkout master
+git merge [branch]
+git branch -d [branch]
+
+#  if conflicts
+git status
+
+#  nano into the problem
+#  HEAD is master, everything above ==== ; everything below is branch
+git add [combined file]
+
+#  nano alt: GUI tool
+git mergetool
