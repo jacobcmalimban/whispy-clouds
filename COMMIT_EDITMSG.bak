@@ -1,0 +1,37 @@
+Retrieve Mistakenly Overwritten Data (instead of Retrieved, 50-72char)
+
+What: The old files have been found. Thank God.
+
+Why: Move is a very powerful tool, as you can delete files you still needed
+
+I could put bullet points.
+
+- Format looks nice
+
+- Wouldn't you agree?
+
+- Regarding the title: If applied, this commit will [title name here]
+
+Finally, issue references:
+
+Resolves: #456
+See also: #000, #999
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	new file:   git.it
+#	new file:   u.nix
+#
+# Untracked files:
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.gitconfig
+#	.lesshst
+#	.profile
+#	.viminfo
+#	.wget-hsts
+#
