@@ -38,6 +38,9 @@ git commit -a --date="2019-09-30 12:13:45"
 git push origin [branch]
 
 
+# undo commit to add missing
+git reset --soft HEAD^
+
 # merging branches
 
 #  CHECK MASTER AND BRANCH ARE COMMITTED
@@ -54,3 +57,6 @@ git add [combined file]
 
 #  nano alt: GUI tool
 git mergetool
+
+
+# pull requests

@@ -12,3 +12,8 @@ grep -i -a -B100 -A100 'text in the deleted file' /dev/sda1
 ln -s ./whispy-clouds/git.it ./git.it.lnk
 
 	https://www.faqforge.com/linux/create-shortcuts-in-linux-symbolic-links/
+
+# sha256 checksum
+sha256sum [file location]
+
+	https://itsfoss.com/checksum-tools-guide-linux/
