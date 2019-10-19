@@ -40,6 +40,8 @@ git push origin [branch]
 
 # undo commit to add missing
 git reset --soft HEAD^
+#  also for:  commit on master, but should push to new branch already created
+#  then push new branch  ; git log to check beforehand
 
 # merging branches
 
