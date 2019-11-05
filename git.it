@@ -8,6 +8,9 @@ git remote add origin git@github.com:jacobcmalimban/[repo name].git
 
 git pull origin master
 
+# unrelated histories
+git pull --allow-unrelated-histories
+
 
 # keys
 ## first time
