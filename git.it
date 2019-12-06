@@ -33,6 +33,7 @@ git branch -d hotfix	# deletes hotfix branch
 git commit -a
 #  quickly: git commit -a -m "[message]"
 #  aka:		git add * ; git commit -m "[message]"
+#		    git unadd??
 #	git commit -ammend
 
 git push origin [branch]
