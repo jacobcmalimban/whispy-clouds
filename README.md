@@ -9,6 +9,6 @@ This repository is for my tests of cloud computing: uploading, downloading, and 
 - [x] Download from cloud computer
 - [x] Recover files...
 - [x] Upload to github
-- [ ] Download some repositories
+- [x] Download some repositories
 - [ ] Pull request from cloud
 - [ ] ...
