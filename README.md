@@ -10,7 +10,7 @@ Evidentally, it's my practice for GitHub as well
 - [x] Download from cloud computer
 - [x] Recover files...
 - [x] Upload to github
-- [ ] Download some repositories
+- [x] Download some repositories
 - [ ] Pull request from cloud
 - [ ] ...
 

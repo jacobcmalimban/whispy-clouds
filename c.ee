@@ -1,0 +1,5 @@
+Compile 
+gcc -o *.exe *.c
+
+Assembly
+gcc -S [c location]
