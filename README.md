@@ -11,7 +11,7 @@ Evidentally, it's my practice for GitHub as well
 - [x] Recover files...
 - [x] Upload to github
 - [x] Download some repositories
-- [ ] Pull request from cloud
+- [x] Pull request from cloud
 - [ ] ...
 
 ## Others
